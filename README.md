@@ -32,6 +32,10 @@ and the front page says so in the first thing you read.
 
 ## Work that other people merged
 
+<img src="https://github.com/mahirhir/mahirhir/releases/download/brand-assets/activity.png" alt="Merges into other people's repositories, by week, over the last 53 weeks" width="880">
+
+One column per week over the last year, brighter where more of my pull requests were merged. It is not a saved picture: a workflow refetches every merge from the GitHub API each Monday and draws it again, so the strip is whatever the account has actually done by the time you look at it. The generator is [`tools/render_activity.py`](https://github.com/mahirhir/mahirhir/blob/main/tools/render_activity.py).
+
 
 | | measured | how to re-derive it |
 |:--|--:|:--|
