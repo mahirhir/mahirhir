@@ -2,8 +2,12 @@
 
 <a href="https://github.com/TraceFold/tracefold"><img src="https://github.com/mahirhir/mahirhir/releases/download/brand-assets/tf-hero.png" alt="Tracefold — undo is a feature, reversibility is a property" width="880"></a>
 
-**[Tracefold](https://github.com/TraceFold/tracefold)** holds an agent's change with a checked inverse **before** it lands, and turns
-every verdict into a receipt anyone can re-check offline without trusting whoever issued it.
+### Responsibility for effects.
+
+**Undo is a feature; reversibility is a property.**
+
+[Tracefold](https://github.com/TraceFold/tracefold) holds a change with a checked inverse **before** it lands, and turns the
+verdict into a receipt anyone can re-check offline without trusting whoever issued it.
 
 <p>
 <a href="https://github.com/TraceFold/tracefold"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/the%20repository-ece7da?style=for-the-badge&labelColor=ece7da"><img alt="the repository" src="https://img.shields.io/badge/the%20repository-0b0a09?style=for-the-badge&labelColor=0b0a09"></picture></a>
@@ -13,8 +17,7 @@ every verdict into a receipt anyone can re-check offline without trusting whoeve
 
 </div>
 
-Rust, single static binary, Apache-2.0. Not released — what sits on crates.io and npm under that
-name is a reservation holding the name.
+Not released — what sits on crates.io and npm under that name is a reservation holding the name.
 
 ## Work that other people merged
 
