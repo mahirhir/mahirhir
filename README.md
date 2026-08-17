@@ -27,15 +27,15 @@ I build the part that has to still be true when nobody is watching. Rust, single
 Apache-2.0. The limits are written down before the features are, and a test fails if the written
 limits drift from the code that enforces them.
 
-Not released yet — what you can install today is a build from source, and the front page says so
-in the first thing you read.
+Not released yet — what is on crates.io and npm under that name is a reservation holding the name,
+and the front page says so in the first thing you read.
 
 ## Work that other people merged
 
-<img src="https://github.com/mahirhir/mahirhir/releases/download/brand-assets/profile-banner.png" alt="One mark per merged pull request, height is the log of the receiving project's stars" width="880">
+<img src="https://github.com/mahirhir/mahirhir/releases/download/brand-assets/profile-grid.png" alt="One square per merged pull request, brighter squares are larger receiving projects" width="880">
 
-Every mark above is one pull request somebody else chose to merge. Height is the log of the
-receiving project's star count, so the tall end is where the marks landed in large codebases.
+One square per merge, ordered by the size of the project that took it, brightest first. The names
+beside it are the seven largest.
 
 | | measured | how to re-derive it |
 |:--|--:|:--|
@@ -46,15 +46,17 @@ receiving project's star count, so the tall end is where the marks landed in lar
 
 Where they landed, by size of the receiving project:
 
+[ant-design/ant-design](https://github.com/ant-design/ant-design) 99.1k&#9733; &middot;
 [mui/material-ui](https://github.com/mui/material-ui) 98.8k&#9733; &middot;
+[gin-gonic/gin](https://github.com/gin-gonic/gin) 89.1k&#9733; &middot;
+[vitejs/vite](https://github.com/vitejs/vite) 82.4k&#9733; &middot;
+[nestjs/nest](https://github.com/nestjs/nest) 76.4k&#9733; &middot;
 [strapi/strapi](https://github.com/strapi/strapi) 72.9k&#9733; &middot;
-[mozilla/pdf.js](https://github.com/mozilla/pdf.js) 53.7k&#9733; &middot;
-[janhq/jan](https://github.com/janhq/jan) 44.0k&#9733; &middot;
-[wailsapp/wails](https://github.com/wailsapp/wails) 35.9k&#9733; &middot;
-[Automattic/mongoose](https://github.com/Automattic/mongoose) 27.5k&#9733; &middot;
-[ai/nanoid](https://github.com/ai/nanoid) 26.9k&#9733; &middot;
-[urfave/cli](https://github.com/urfave/cli) 24.2k&#9733; &middot;
-[ratatui/ratatui](https://github.com/ratatui/ratatui) 22.3k&#9733;
+[scrapy/scrapy](https://github.com/scrapy/scrapy) 63.9k&#9733; &middot;
+[usememos/memos](https://github.com/usememos/memos) 62.3k&#9733; &middot;
+[sharkdp/bat](https://github.com/sharkdp/bat) 60.2k&#9733; &middot;
+[twentyhq/twenty](https://github.com/twentyhq/twenty) 55k&#9733; &middot;
+[mozilla/pdf.js](https://github.com/mozilla/pdf.js) 53.7k&#9733;
 
 **Read that with the caveat attached:** 152 of the 153 merged inside a single month. It is a
 burst, not a four-year cadence, and anyone weighing it should weigh it as a burst. I would rather
@@ -71,9 +73,9 @@ someone else's work, and the licence on it is theirs.
 
 ## About the two pictures on this page
 
-Neither is an illustration. The lower one is drawn from this account's own merge data — one mark
-per row, one height per star count — so feeding it different data draws a different picture. The
-generator and the exact data it was drawn from are kept beside the image rather than thrown away.
+Neither is an illustration. The lower one is drawn from this account's own merge data — one square
+per row, brightness by rank — so feeding it different data draws a different picture. The generator
+and the exact data it was drawn from are kept beside the image rather than thrown away.
 
 No visitor counter, no star totals, no trophy rows, no wall of language logos. Those count
 attention, or they claim a skill without evidence, and neither measures whether anything I made
