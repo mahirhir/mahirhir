@@ -1,0 +1,31 @@
+name: activity strip
+
+# 静止画にしない。毎週 GitHub API から引き直して焼き直す。
+# 出力は release asset を上書きするので README の URL は変わらない。
+on:
+  schedule:
+    - cron: "17 4 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install --quiet pillow
+      - name: draw
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GX_USER: mahirhir
+          GX_OUT: activity.png
+        run: python tools/render_activity.py
+      - name: publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload brand-assets activity.png --repo ${{ github.repository }} --clobber
