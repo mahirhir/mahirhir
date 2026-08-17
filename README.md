@@ -32,10 +32,6 @@ and the front page says so in the first thing you read.
 
 ## Work that other people merged
 
-<img src="https://github.com/mahirhir/mahirhir/releases/download/brand-assets/profile-grid.png" alt="One square per merged pull request, brighter squares are larger receiving projects" width="880">
-
-One square per merge, ordered by the size of the project that took it, brightest first. The names
-beside it are the seven largest.
 
 | | measured | how to re-derive it |
 |:--|--:|:--|
