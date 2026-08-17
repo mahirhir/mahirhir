@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://github.com/TraceFold/tracefold"><img src="https://github.com/mahirhir/mahirhir/releases/download/brand-assets/tf-hero.png" alt="Tracefold — undo is a feature, reversibility is a property" width="880"></a>
+<a href="https://github.com/TraceFold/tracefold"><img src="https://github.com/TraceFold/tracefold/releases/download/brand-assets/banner.png" alt="Tracefold — undo is a feature, reversibility is a property" width="880"></a>
 
 ### Responsibility for effects.
 
