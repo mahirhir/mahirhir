@@ -12,7 +12,6 @@ verdict into a receipt anyone can re-check offline without trusting whoever issu
 <p>
 <a href="https://github.com/TraceFold/tracefold"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/the%20repository-ece7da?style=for-the-badge&labelColor=ece7da"><img alt="the repository" src="https://img.shields.io/badge/the%20repository-0b0a09?style=for-the-badge&labelColor=0b0a09"></picture></a>
 <a href="https://github.com/TraceFold/tracefold/blob/main/docs/LIMITS.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/the%20limits%20first-ece7da?style=for-the-badge&labelColor=ece7da"><img alt="the limits first" src="https://img.shields.io/badge/the%20limits%20first-0b0a09?style=for-the-badge&labelColor=0b0a09"></picture></a>
-<a href="https://discord.gg/bFBvvg7AG"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/discord-ece7da?style=for-the-badge&labelColor=ece7da&logo=discord&logoColor=0b0a09"><img alt="discord" src="https://img.shields.io/badge/discord-0b0a09?style=for-the-badge&labelColor=0b0a09&logo=discord&logoColor=ece7da"></picture></a>
 </p>
 
 </div>
