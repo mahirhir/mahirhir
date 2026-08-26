@@ -1,19 +1,72 @@
-### Mahiro Hirakawa
+<div align="center">
 
-I build [Tracefold](https://github.com/TraceFold/tracefold): an agent's change is held with a
-checked inverse **before** it lands, and every verdict becomes a receipt that verifies offline,
-without trusting whoever issued it. Rust, with a machine-checked model in Lean beside it.
+<a href="https://github.com/TraceFold/tracefold"><img src="https://github.com/TraceFold/tracefold/releases/download/brand-assets/banner.png" alt="Tracefold, undo is a feature and reversibility is a property" width="880"></a>
 
-What holds my attention: inverses that are constructed and checked before a change lands,
-rather than reconstructed afterwards and hoped about. Verification that needs no account and
-trusts no server, mine included. Formal methods pointed at ordinary tools instead of at
-spacecraft. And being exact about what a tool cannot take back, which is the half that usually
-goes unwritten.
+### Responsibility for effects.
 
-It is not released, and there are platforms it has never run on: Windows, OneDrive and network
-shares have zero measured runs. One part of it does work with nothing installed, if you want to
-check a receipt rather than take my word for any of this:
-[in a browser tab](https://tracefold.github.io/tracefold/verify.html).
+**Undo is a feature; reversibility is a property.**
 
-An issue on [the repository](https://github.com/TraceFold/tracefold/issues) reaches me and
-leaves a public record.
+[Tracefold](https://github.com/TraceFold/tracefold) holds a change with a checked inverse **before** it lands, and turns the
+verdict into a receipt anyone can re-check offline without trusting whoever issued it.
+
+<p>
+<a href="https://github.com/TraceFold/tracefold"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/the%20repository-ece7da?style=for-the-badge&labelColor=ece7da"><img alt="the repository" src="https://img.shields.io/badge/the%20repository-0b0a09?style=for-the-badge&labelColor=0b0a09"></picture></a>
+<a href="https://github.com/TraceFold/tracefold/blob/main/docs/LIMITS.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/the%20limits%20first-ece7da?style=for-the-badge&labelColor=ece7da"><img alt="the limits first" src="https://img.shields.io/badge/the%20limits%20first-0b0a09?style=for-the-badge&labelColor=0b0a09"></picture></a>
+<a href="https://discord.gg/rtvXqYEQzr"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/discord-ece7da?style=for-the-badge&labelColor=ece7da&logo=discord&logoColor=0b0a09"><img alt="discord" src="https://img.shields.io/badge/discord-0b0a09?style=for-the-badge&labelColor=0b0a09&logo=discord&logoColor=ece7da"></picture></a>
+</p>
+
+</div>
+
+Not released. What sits on crates.io and npm under that name is a reservation holding the name.
+
+## What it looks like
+
+![Verify a receipt, flip one byte, verify again](https://github.com/TraceFold/tracefold/releases/download/demo-assets/tracefold-demo-10s.gif)
+
+A receipt, a signed checkpoint and a public key. The receipt verifies offline and exits `0`.
+One byte of it is flipped, `cmp -l` prints the single line proving one byte moved, and the
+same command exits `7`. Real terminal, fresh anonymous clone, 26 August 2026; the build that
+precedes it is deliberately outside the recording.
+
+## Work that other people merged
+
+<img src="https://github.com/mahirhir/mahirhir/releases/download/brand-assets/activity.gif" alt="Each square is one merged pull request, lighting in the order they landed" width="880">
+
+Counted 20 August 2026 from the GitHub search API, which is also where you can count them.
+
+| | measured | how to re-derive it |
+|:--|--:|:--|
+| Pull requests merged | **153** | out of 351 opened · [search: author, merged](https://github.com/search?q=author%3Amahirhir+type%3Apr+is%3Amerged&type=pullrequests) · 20 August 2026 |
+| Into repositories I do not own | **153 of 153** | add `user:mahirhir` to that same search and the count is 0 · 20 August 2026 |
+| Distinct repositories | **143** | across **136** owners, counted over the 153 merged results · 20 August 2026 |
+| Opened in total | **351** | drop `is:merged` from the search. Merged rate 44 per cent out of 351; the other 198 are visible too · 20 August 2026 |
+
+[ant-design](https://github.com/ant-design/ant-design) 99.1k&#9733; &middot;
+[material-ui](https://github.com/mui/material-ui) 98.8k&#9733; &middot;
+[gin](https://github.com/gin-gonic/gin) 89.1k&#9733; &middot;
+[vite](https://github.com/vitejs/vite) 82.4k&#9733; &middot;
+[nest](https://github.com/nestjs/nest) 76.4k&#9733; &middot;
+[strapi](https://github.com/strapi/strapi) 72.9k&#9733; &middot;
+[scrapy](https://github.com/scrapy/scrapy) 63.9k&#9733; &middot;
+[pdf.js](https://github.com/mozilla/pdf.js) 53.7k&#9733;
+
+**152 of the 153 merged inside a single month.** It is a burst, not a four-year cadence.
+
+## What is actually mine here
+
+Most repositories on this account are working copies of other people's projects, kept for reading
+and for preparing pull requests. GitHub does not label all of them as forks.
+
+Mine: **[TraceFold/tracefold](https://github.com/TraceFold/tracefold)**, pinned above.
+
+## About the picture
+
+Not an illustration. A workflow refetches every merge from the GitHub API each Monday and draws it
+again, so it is whatever this account has actually done by the time you look. Generator:
+[`tools/render_activity.py`](https://github.com/mahirhir/mahirhir/blob/main/tools/render_activity.py).
+
+No visitor counter, no star totals, no trophies, no logo wall. Those count attention.
+
+<div align="center">
+<sub><a href="https://glovrex.com">Glovrex</a> &middot; independent</sub>
+</div>
