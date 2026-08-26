@@ -1,80 +1,60 @@
-<div align="center">
-
-<a href="https://github.com/TraceFold/tracefold"><img src="https://github.com/TraceFold/tracefold/releases/download/brand-assets/banner.png" alt="Tracefold, undo is a feature and reversibility is a property" width="880"></a>
-
-### Responsibility for effects.
-
-**Undo is a feature; reversibility is a property.**
-
-[Tracefold](https://github.com/TraceFold/tracefold) holds a change with a checked inverse **before** it lands, and turns the
-verdict into a receipt anyone can re-check offline without trusting whoever issued it.
-
+<table width="100%">
+<tr>
+<td width="34%" valign="top">
+<a href="https://github.com/TraceFold/tracefold"><img src="https://github.com/TraceFold/tracefold/releases/download/brand-assets/avatar.png" alt="Tracefold" width="100%"></a>
+</td>
+<td valign="top">
+<h3>Responsibility for effects.</h3>
+<b>Undo is a feature; reversibility is a property.</b>
+<p>Tracefold holds a change together with a checked inverse <b>before</b> it lands, and turns the verdict into a receipt anyone can re-check offline without trusting whoever issued it.</p>
 <p>
-<a href="https://github.com/TraceFold/tracefold"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/the%20repository-ece7da?style=for-the-badge&labelColor=ece7da"><img alt="the repository" src="https://img.shields.io/badge/the%20repository-0b0a09?style=for-the-badge&labelColor=0b0a09"></picture></a>
-<a href="https://github.com/TraceFold/tracefold/blob/main/docs/LIMITS.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/the%20limits%20first-ece7da?style=for-the-badge&labelColor=ece7da"><img alt="the limits first" src="https://img.shields.io/badge/the%20limits%20first-0b0a09?style=for-the-badge&labelColor=0b0a09"></picture></a>
-<a href="https://tracefold.github.io/tracefold/verify.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/check%20a%20receipt-ece7da?style=for-the-badge&labelColor=ece7da"><img alt="check a receipt in your browser" src="https://img.shields.io/badge/check%20a%20receipt-0b0a09?style=for-the-badge&labelColor=0b0a09"></picture></a>
-<a href="https://github.com/TraceFold/tracefold/tree/main/gui"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/the%20window-ece7da?style=for-the-badge&labelColor=ece7da"><img alt="the window: a GUI over the engine" src="https://img.shields.io/badge/the%20window-0b0a09?style=for-the-badge&labelColor=0b0a09"></picture></a>
-<a href="https://discord.gg/rtvXqYEQzr"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/discord-ece7da?style=for-the-badge&labelColor=ece7da&logo=discord&logoColor=0b0a09"><img alt="discord" src="https://img.shields.io/badge/discord-0b0a09?style=for-the-badge&labelColor=0b0a09&logo=discord&logoColor=ece7da"></picture></a>
+<sub><b>Tracefold</b></sub><br>
+<a href="https://github.com/TraceFold/tracefold"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/tracefold-ece7da?style=for-the-badge&labelColor=ece7da&logo=github&logoColor=333333"><img alt="tracefold" src="https://img.shields.io/badge/tracefold-3a3128?style=for-the-badge&labelColor=3a3128&logo=github&logoColor=ffffff"></picture></a>
+<a href="https://tracefold.github.io/tracefold/verify.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/check%20a%20receipt-c9b998?style=for-the-badge&labelColor=c9b998&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzMzMzMzIiBzdHJva2Utd2lkdGg9IjEuNyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNNCAxMi40bDUuMiA1LjJMMjAgNi44Ii8%2BPC9nPjwvc3ZnPg%3D%3D"><img alt="check a receipt" src="https://img.shields.io/badge/check%20a%20receipt-6b5a45?style=for-the-badge&labelColor=6b5a45&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjEuNyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNNCAxMi40bDUuMiA1LjJMMjAgNi44Ii8%2BPC9nPjwvc3ZnPg%3D%3D"></picture></a>
+<a href="https://github.com/TraceFold/tracefold/tree/main/gui"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/the%20window-ece7da?style=for-the-badge&labelColor=ece7da&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzMzMzMzIiBzdHJva2Utd2lkdGg9IjEuNyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMyA1aDE4djE0SDN6Ii8%2BPHBhdGggZD0iTTMgOS41aDE4Ii8%2BPC9nPjwvc3ZnPg%3D%3D"><img alt="the window" src="https://img.shields.io/badge/the%20window-3a3128?style=for-the-badge&labelColor=3a3128&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjEuNyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMyA1aDE4djE0SDN6Ii8%2BPHBhdGggZD0iTTMgOS41aDE4Ii8%2BPC9nPjwvc3ZnPg%3D%3D"></picture></a>
+<a href="https://www.npmjs.com/package/@mahirhir/tracefold"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/%40mahirhir%2Ftracefold-c9b998?style=for-the-badge&labelColor=c9b998&logo=npm&logoColor=333333"><img alt="@mahirhir/tracefold" src="https://img.shields.io/badge/%40mahirhir%2Ftracefold-6b5a45?style=for-the-badge&labelColor=6b5a45&logo=npm&logoColor=ffffff"></picture></a>
+<a href="https://github.com/TraceFold/tracefold/blob/main/docs/LIMITS.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/the%20limits%20first-ece7da?style=for-the-badge&labelColor=ece7da&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzMzMzMzIiBzdHJva2Utd2lkdGg9IjEuNyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMyAxMmgxMSIvPjxwYXRoIGQ9Ik0xOCA1djE0Ii8%2BPC9nPjwvc3ZnPg%3D%3D"><img alt="the limits first" src="https://img.shields.io/badge/the%20limits%20first-3a3128?style=for-the-badge&labelColor=3a3128&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjEuNyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMyAxMmgxMSIvPjxwYXRoIGQ9Ik0xOCA1djE0Ii8%2BPC9nPjwvc3ZnPg%3D%3D"></picture></a>
+<a href="https://github.com/TraceFold/tracefold/blob/main/docs/TRACEFOLD_TR.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/technical%20report-c9b998?style=for-the-badge&labelColor=c9b998&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzMzMzMzIiBzdHJva2Utd2lkdGg9IjEuNyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNNSA3aDE0Ii8%2BPHBhdGggZD0iTTUgMTJoMTQiLz48cGF0aCBkPSJNNSAxN2g4Ii8%2BPC9nPjwvc3ZnPg%3D%3D"><img alt="technical report" src="https://img.shields.io/badge/technical%20report-6b5a45?style=for-the-badge&labelColor=6b5a45&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjEuNyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNNSA3aDE0Ii8%2BPHBhdGggZD0iTTUgMTJoMTQiLz48cGF0aCBkPSJNNSAxN2g4Ii8%2BPC9nPjwvc3ZnPg%3D%3D"></picture></a>
 </p>
 
 <p>
-<a href="https://www.npmjs.com/package/@mahirhir/tracefold"><img alt="npm: @mahirhir/tracefold" src="https://img.shields.io/npm/v/%40mahirhir%2Ftracefold?style=flat-square&color=0b0a09&labelColor=0b0a09&logo=npm&logoColor=ece7da&label=%40mahirhir%2Ftracefold"></a>
-<a href="https://github.com/TraceFold/tracefold"><img alt="language" src="https://img.shields.io/github/languages/top/TraceFold/tracefold?style=flat-square&color=0b0a09&labelColor=0b0a09"></a>
+<sub><b>154 merged into 144 repositories &middot; one pull request in each of these four</b></sub><br>
+<a href="https://github.com/search?q=author%3Amahirhir+type%3Apr+is%3Amerged+repo%3Aant-design%2Fant-design&type=pullrequests"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/ant--design-ece7da?style=for-the-badge&labelColor=ece7da&logo=antdesign&logoColor=333333"><img alt="ant-design" src="https://img.shields.io/badge/ant--design-3a3128?style=for-the-badge&labelColor=3a3128&logo=antdesign&logoColor=ffffff"></picture></a>
+<a href="https://github.com/search?q=author%3Amahirhir+type%3Apr+is%3Amerged+repo%3Amui%2Fmaterial-ui&type=pullrequests"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/material--ui-c9b998?style=for-the-badge&labelColor=c9b998&logo=mui&logoColor=333333"><img alt="material-ui" src="https://img.shields.io/badge/material--ui-6b5a45?style=for-the-badge&labelColor=6b5a45&logo=mui&logoColor=ffffff"></picture></a>
+<a href="https://github.com/search?q=author%3Amahirhir+type%3Apr+is%3Amerged+repo%3Agin-gonic%2Fgin&type=pullrequests"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/gin-ece7da?style=for-the-badge&labelColor=ece7da&logo=gin&logoColor=333333"><img alt="gin" src="https://img.shields.io/badge/gin-3a3128?style=for-the-badge&labelColor=3a3128&logo=gin&logoColor=ffffff"></picture></a>
+<a href="https://github.com/search?q=author%3Amahirhir+type%3Apr+is%3Amerged+repo%3Avitejs%2Fvite&type=pullrequests"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/vite-c9b998?style=for-the-badge&labelColor=c9b998&logo=vite&logoColor=333333"><img alt="vite" src="https://img.shields.io/badge/vite-6b5a45?style=for-the-badge&labelColor=6b5a45&logo=vite&logoColor=ffffff"></picture></a>
+<a href="https://github.com/search?q=author%3Amahirhir+type%3Apr+is%3Amerged&type=pullrequests"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/all%20154%2C%20counted-ece7da?style=for-the-badge&labelColor=ece7da&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzMzMzMzIiBzdHJva2Utd2lkdGg9IjEuNyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNNyA1djlhNCA0IDAgMCAwIDQgNGg2Ii8%2BPHBhdGggZD0iTTcgNWEyIDIgMCAxIDAgMC0uMSIvPjxwYXRoIGQ9Ik0xNyAxOGEyIDIgMCAxIDAgMC0uMSIvPjwvZz48L3N2Zz4%3D"><img alt="all 154, counted" src="https://img.shields.io/badge/all%20154%2C%20counted-3a3128?style=for-the-badge&labelColor=3a3128&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjEuNyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNNyA1djlhNCA0IDAgMCAwIDQgNGg2Ii8%2BPHBhdGggZD0iTTcgNWEyIDIgMCAxIDAgMC0uMSIvPjxwYXRoIGQ9Ik0xNyAxOGEyIDIgMCAxIDAgMC0uMSIvPjwvZz48L3N2Zz4%3D"></picture></a>
+<a href="https://github.com/mahirhir/mahirhir/blob/main/docs/merged-work.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/how%20to%20re--count%20it-c9b998?style=for-the-badge&labelColor=c9b998&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzMzMzMzIiBzdHJva2Utd2lkdGg9IjEuNyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNNSAxOXYtNyIvPjxwYXRoIGQ9Ik0xMiAxOVY1Ii8%2BPHBhdGggZD0iTTE5IDE5di00Ii8%2BPC9nPjwvc3ZnPg%3D%3D"><img alt="how to re-count it" src="https://img.shields.io/badge/how%20to%20re--count%20it-6b5a45?style=for-the-badge&labelColor=6b5a45&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjEuNyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNNSAxOXYtNyIvPjxwYXRoIGQ9Ik0xMiAxOVY1Ii8%2BPHBhdGggZD0iTTE5IDE5di00Ii8%2BPC9nPjwvc3ZnPg%3D%3D"></picture></a>
+</p>
+</td>
+</tr>
+</table>
+
+Not released. The `gx` crates and the bare `tracefold` npm name are reservations holding the name. The scoped [`@mahirhir/tracefold`](https://www.npmjs.com/package/@mahirhir/tracefold) is the real one: the TypeScript SDK, Apache-2.0, which verifies receipts offline without producing them.
+
+<p>
+<sub><b>What I work on</b></sub><br>
+<a href="https://github.com/TraceFold/tracefold/blob/main/docs/RECOVERABILITY.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/reversibility-ece7da?style=for-the-badge&labelColor=ece7da&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzMzMzMzIiBzdHJva2Utd2lkdGg9IjEuNyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNNCAxMmgxNiIvPjxwYXRoIGQ9Ik0xMiA3bDUgNS01IDUiLz48L2c%2BPC9zdmc%2B"><img alt="reversibility" src="https://img.shields.io/badge/reversibility-3a3128?style=for-the-badge&labelColor=3a3128&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjEuNyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNNCAxMmgxNiIvPjxwYXRoIGQ9Ik0xMiA3bDUgNS01IDUiLz48L2c%2BPC9zdmc%2B"></picture></a>
+<a href="https://github.com/TraceFold/tracefold/blob/main/docs/articles/tamper-evident-receipts.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/receipts%20you%20re--check-c9b998?style=for-the-badge&labelColor=c9b998&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzMzMzMzIiBzdHJva2Utd2lkdGg9IjEuNyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNNCAxMi40bDUuMiA1LjJMMjAgNi44Ii8%2BPC9nPjwvc3ZnPg%3D%3D"><img alt="receipts you re-check" src="https://img.shields.io/badge/receipts%20you%20re--check-6b5a45?style=for-the-badge&labelColor=6b5a45&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjEuNyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNNCAxMi40bDUuMiA1LjJMMjAgNi44Ii8%2BPC9nPjwvc3ZnPg%3D%3D"></picture></a>
+<a href="https://github.com/TraceFold/tracefold/blob/main/docs/articles/verify-ai-agent-actions-offline.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/agent%20safety-ece7da?style=for-the-badge&labelColor=ece7da&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzMzMzMzIiBzdHJva2Utd2lkdGg9IjEuNyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMTIgNGE4IDggMCAxIDAgMCAxNiA4IDggMCAwIDAgMC0xNiIvPjxwYXRoIGQ9Ik02LjcgNi43bDEwLjYgMTAuNiIvPjwvZz48L3N2Zz4%3D"><img alt="agent safety" src="https://img.shields.io/badge/agent%20safety-3a3128?style=for-the-badge&labelColor=3a3128&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjEuNyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMTIgNGE4IDggMCAxIDAgMCAxNiA4IDggMCAwIDAgMC0xNiIvPjxwYXRoIGQ9Ik02LjcgNi43bDEwLjYgMTAuNiIvPjwvZz48L3N2Zz4%3D"></picture></a>
+<a href="https://github.com/TraceFold/tracefold/blob/main/docs/articles/tamper-evident-audit-trails-compared.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/transparency%20logs-c9b998?style=for-the-badge&labelColor=c9b998&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzMzMzMzIiBzdHJva2Utd2lkdGg9IjEuNyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMTIgNGw4IDQtOCA0LTgtNCA4LTQiLz48cGF0aCBkPSJNNCAxNGw4IDQgOC00Ii8%2BPC9nPjwvc3ZnPg%3D%3D"><img alt="transparency logs" src="https://img.shields.io/badge/transparency%20logs-6b5a45?style=for-the-badge&labelColor=6b5a45&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjEuNyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMTIgNGw4IDQtOCA0LTgtNCA4LTQiLz48cGF0aCBkPSJNNCAxNGw4IDQgOC00Ii8%2BPC9nPjwvc3ZnPg%3D%3D"></picture></a>
+<a href="https://github.com/TraceFold/tracefold/tree/main/lean"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/machine--checked%20proof-ece7da?style=for-the-badge&labelColor=ece7da&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzMzMzMzIiBzdHJva2Utd2lkdGg9IjEuNyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNNyA0djE2Ii8%2BPHBhdGggZD0iTTcgMTJoMTAiLz48L2c%2BPC9zdmc%2B"><img alt="machine-checked proof" src="https://img.shields.io/badge/machine--checked%20proof-3a3128?style=for-the-badge&labelColor=3a3128&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjEuNyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNNyA0djE2Ii8%2BPHBhdGggZD0iTTcgMTJoMTAiLz48L2c%2BPC9zdmc%2B"></picture></a>
+<a href="https://github.com/TraceFold/tracefold/tree/main/policies"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/policy%20as%20data-c9b998?style=for-the-badge&labelColor=c9b998&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzMzMzMzIiBzdHJva2Utd2lkdGg9IjEuNyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMTIgNGw3IDN2NWMwIDQtMyA2LjUtNyA4LTQtMS41LTctNC03LThWN2w3LTMiLz48L2c%2BPC9zdmc%2B"><img alt="policy as data" src="https://img.shields.io/badge/policy%20as%20data-6b5a45?style=for-the-badge&labelColor=6b5a45&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjEuNyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMTIgNGw3IDN2NWMwIDQtMyA2LjUtNyA4LTQtMS41LTctNC03LThWN2w3LTMiLz48L2c%2BPC9zdmc%2B"></picture></a>
+<a href="https://github.com/TraceFold/tracefold/blob/main/rust-toolchain.toml"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Rust-26231f?style=for-the-badge&labelColor=26231f&logo=rust&logoColor=ffffff"><img alt="Rust" src="https://img.shields.io/badge/Rust-e6e0d2?style=for-the-badge&labelColor=e6e0d2&logo=rust&logoColor=333333"></picture></a>
+<a href="https://github.com/TraceFold/tracefold/blob/main/LICENSE"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Apache--2.0-26231f?style=for-the-badge&labelColor=26231f&logo=apache&logoColor=ffffff"><img alt="Apache-2.0" src="https://img.shields.io/badge/Apache--2.0-e6e0d2?style=for-the-badge&labelColor=e6e0d2&logo=apache&logoColor=333333"></picture></a>
 </p>
 
-</div>
+152 of them merged inside a single month, counted 20 August 2026 when the total was 153. It is a burst, not a four-year cadence.
 
-Not released. The `gx` crates and the bare `tracefold` npm name are reservations holding the name.
-The scoped [`@mahirhir/tracefold`](https://www.npmjs.com/package/@mahirhir/tracefold) is the real
-one: the TypeScript SDK, Apache-2.0, which verifies receipts offline without producing them.
+Most repositories on this account are working copies of other people's projects, kept for reading and for preparing pull requests. GitHub does not label all of them as forks. Mine is [TraceFold/tracefold](https://github.com/TraceFold/tracefold).
 
-## What it looks like
+No visitor counter, no star totals, no trophies, no logo wall.
 
-![Verify a receipt, flip one byte, verify again](https://github.com/TraceFold/tracefold/releases/download/demo-assets/tracefold-demo-10s.gif)
-
-A receipt, a signed checkpoint and a public key. The receipt verifies offline and exits `0`.
-One byte of it is flipped, `cmp -l` prints the single line proving one byte moved, and the
-same command exits `7`. Real terminal, fresh anonymous clone, 26 August 2026; the build that
-precedes it is deliberately outside the recording.
-
-## Work that other people merged
-
-<a href="https://github.com/search?q=author%3Amahirhir+type%3Apr+is%3Amerged&type=pullrequests"><img src="https://github.com/mahirhir/mahirhir/releases/download/brand-assets/activity.gif" alt="Each square is one merged pull request, lighting in the order they landed" width="880"></a>
-
-Counted 20 August 2026 from the GitHub search API, which is also where you can count them.
-
-| | measured | how to re-derive it |
-|:--|--:|:--|
-| Pull requests merged | **153** | out of 351 opened · [search: author, merged](https://github.com/search?q=author%3Amahirhir+type%3Apr+is%3Amerged&type=pullrequests) · 20 August 2026 |
-| Into repositories I do not own | **153 of 153** | add `user:mahirhir` to that same search and the count is 0 · 20 August 2026 |
-| Distinct repositories | **143** | across **136** owners, counted over the 153 merged results · 20 August 2026 |
-| Opened in total | **351** | drop `is:merged` from the search. Merged rate 44 per cent out of 351; the other 198 are visible too · 20 August 2026 |
-
-[ant-design](https://github.com/ant-design/ant-design) 99.1k&#9733; &middot;
-[material-ui](https://github.com/mui/material-ui) 98.8k&#9733; &middot;
-[gin](https://github.com/gin-gonic/gin) 89.1k&#9733; &middot;
-[vite](https://github.com/vitejs/vite) 82.4k&#9733; &middot;
-[nest](https://github.com/nestjs/nest) 76.4k&#9733; &middot;
-[strapi](https://github.com/strapi/strapi) 72.9k&#9733; &middot;
-[scrapy](https://github.com/scrapy/scrapy) 63.9k&#9733; &middot;
-[pdf.js](https://github.com/mozilla/pdf.js) 53.7k&#9733;
-
-**152 of the 153 merged inside a single month.** It is a burst, not a four-year cadence.
-
-## What is actually mine here
-
-Most repositories on this account are working copies of other people's projects, kept for reading
-and for preparing pull requests. GitHub does not label all of them as forks.
-
-Mine: **[TraceFold/tracefold](https://github.com/TraceFold/tracefold)**, pinned above.
-
-## About the picture
-
-Not an illustration. A workflow refetches every merge from the GitHub API each Monday and draws it
-again, so it is whatever this account has actually done by the time you look. Generator:
-[`tools/render_activity.py`](https://github.com/mahirhir/mahirhir/blob/main/tools/render_activity.py).
-
-No visitor counter, no star totals, no trophies, no logo wall. Those count attention.
+<p>
+<sub><b>Reach me</b></sub><br>
+<a href="https://discord.gg/rtvXqYEQzr"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/discord-ece7da?style=for-the-badge&labelColor=ece7da&logo=discord&logoColor=333333"><img alt="discord" src="https://img.shields.io/badge/discord-3a3128?style=for-the-badge&labelColor=3a3128&logo=discord&logoColor=ffffff"></picture></a>
+<a href="https://glovrex.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/glovrex.com-c9b998?style=for-the-badge&labelColor=c9b998&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzMzMzMzIiBzdHJva2Utd2lkdGg9IjEuNyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNNy41IDQuMUgzLjhWMTkuOUg3LjUiLz48cGF0aCBkPSJNMTYuNSA0LjFIMjAuMlYxOS45SDE2LjUiLz48cGF0aCBkPSJNOS44IDcuOWg0LjV2OC4ySDkuOHoiLz48L2c%2BPC9zdmc%2B"><img alt="glovrex.com" src="https://img.shields.io/badge/glovrex.com-6b5a45?style=for-the-badge&labelColor=6b5a45&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjEuNyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNNy41IDQuMUgzLjhWMTkuOUg3LjUiLz48cGF0aCBkPSJNMTYuNSA0LjFIMjAuMlYxOS45SDE2LjUiLz48cGF0aCBkPSJNOS44IDcuOWg0LjV2OC4ySDkuOHoiLz48L2c%2BPC9zdmc%2B"></picture></a>
+</p>
 
 <div align="center">
 <sub><a href="https://glovrex.com">Glovrex</a> &middot; independent</sub>
