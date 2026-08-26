@@ -12,12 +12,21 @@ verdict into a receipt anyone can re-check offline without trusting whoever issu
 <p>
 <a href="https://github.com/TraceFold/tracefold"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/the%20repository-ece7da?style=for-the-badge&labelColor=ece7da"><img alt="the repository" src="https://img.shields.io/badge/the%20repository-0b0a09?style=for-the-badge&labelColor=0b0a09"></picture></a>
 <a href="https://github.com/TraceFold/tracefold/blob/main/docs/LIMITS.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/the%20limits%20first-ece7da?style=for-the-badge&labelColor=ece7da"><img alt="the limits first" src="https://img.shields.io/badge/the%20limits%20first-0b0a09?style=for-the-badge&labelColor=0b0a09"></picture></a>
+<a href="https://tracefold.github.io/tracefold/verify.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/check%20a%20receipt-ece7da?style=for-the-badge&labelColor=ece7da"><img alt="check a receipt in your browser" src="https://img.shields.io/badge/check%20a%20receipt-0b0a09?style=for-the-badge&labelColor=0b0a09"></picture></a>
+<a href="https://github.com/TraceFold/tracefold/tree/main/gui"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/the%20window-ece7da?style=for-the-badge&labelColor=ece7da"><img alt="the window: a GUI over the engine" src="https://img.shields.io/badge/the%20window-0b0a09?style=for-the-badge&labelColor=0b0a09"></picture></a>
 <a href="https://discord.gg/rtvXqYEQzr"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/discord-ece7da?style=for-the-badge&labelColor=ece7da&logo=discord&logoColor=0b0a09"><img alt="discord" src="https://img.shields.io/badge/discord-0b0a09?style=for-the-badge&labelColor=0b0a09&logo=discord&logoColor=ece7da"></picture></a>
+</p>
+
+<p>
+<a href="https://www.npmjs.com/package/@mahirhir/tracefold"><img alt="npm: @mahirhir/tracefold" src="https://img.shields.io/npm/v/%40mahirhir%2Ftracefold?style=flat-square&color=0b0a09&labelColor=0b0a09&logo=npm&logoColor=ece7da&label=%40mahirhir%2Ftracefold"></a>
+<a href="https://github.com/TraceFold/tracefold"><img alt="language" src="https://img.shields.io/github/languages/top/TraceFold/tracefold?style=flat-square&color=0b0a09&labelColor=0b0a09"></a>
 </p>
 
 </div>
 
-Not released. What sits on crates.io and npm under that name is a reservation holding the name.
+Not released. The `gx` crates and the bare `tracefold` npm name are reservations holding the name.
+The scoped [`@mahirhir/tracefold`](https://www.npmjs.com/package/@mahirhir/tracefold) is the real
+one: the TypeScript SDK, Apache-2.0, which verifies receipts offline without producing them.
 
 ## What it looks like
 
@@ -30,7 +39,7 @@ precedes it is deliberately outside the recording.
 
 ## Work that other people merged
 
-<img src="https://github.com/mahirhir/mahirhir/releases/download/brand-assets/activity.gif" alt="Each square is one merged pull request, lighting in the order they landed" width="880">
+<a href="https://github.com/search?q=author%3Amahirhir+type%3Apr+is%3Amerged&type=pullrequests"><img src="https://github.com/mahirhir/mahirhir/releases/download/brand-assets/activity.gif" alt="Each square is one merged pull request, lighting in the order they landed" width="880"></a>
 
 Counted 20 August 2026 from the GitHub search API, which is also where you can count them.
 
