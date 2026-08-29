@@ -2,10 +2,9 @@
 
 <a href="https://github.com/TraceFold/tracefold"><img src="https://github.com/TraceFold/tracefold/releases/download/brand-assets/banner.png" alt="TraceFold Banner" width="900"></a>
 
-# Mahiro Hirakawa
+### Responsibility for effects.
 
-**Responsibility for effects.**  
-*Undo is a feature; reversibility is a property.*
+**Undo is a feature; reversibility is a property.**
 
 Holding checked inverses for autonomous AI agent actions **before** they land.  
 Turning execution verdicts into tamper-evident receipts verifiable offline by third parties.
