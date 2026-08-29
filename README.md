@@ -2,7 +2,13 @@
 
 <a href="https://github.com/TraceFold/tracefold"><img src="https://github.com/TraceFold/tracefold/releases/download/brand-assets/banner.png" alt="TraceFold Banner" width="900"></a>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=1200&color=00DFD8&background=0B0A0900&center=true&vCenter=true&width=700&lines=Responsibility+for+effects.;Undo+is+a+feature;+reversibility+is+a+property.;Holding+checked+inverses+before+actions+land.;154+PRs+Merged+into+144+Open-Source+Repos" alt="TraceFold Hero Tagline" />
+# Mahiro Hirakawa
+
+**Responsibility for effects.**  
+*Undo is a feature; reversibility is a property.*
+
+Holding checked inverses for autonomous AI agent actions **before** they land.  
+Turning execution verdicts into tamper-evident receipts verifiable offline by third parties.
 
 <p>
 <a href="https://github.com/TraceFold/tracefold"><img src="https://img.shields.io/badge/TraceFold-Core%20Engine-7928ca?style=for-the-badge&logo=rust&logoColor=ffffff" alt="TraceFold Core"></a>
@@ -12,35 +18,6 @@
 </p>
 
 </div>
-
----
-
-### Core Systems & Primary Work
-
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-<h4>⚡ <a href="https://github.com/TraceFold/tracefold">TraceFold Core Engine</a></h4>
-<p>Holds a change together with a checked inverse <b>before</b> it lands, turning the verdict into a receipt verifiable offline.</p>
-<code>cargo build --workspace</code>
-</td>
-<td width="50%" valign="top">
-<h4>📦 <a href="https://www.npmjs.com/package/@mahirhir/tracefold">@mahirhir/tracefold (npm SDK)</a></h4>
-<p>The real TypeScript / WASM SDK (Apache-2.0). Verifies receipts offline without network calls or producing them.</p>
-<code>npm i @mahirhir/tracefold</code>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h4>🏛️ <a href="https://glovrex.com">Glovrex Research Lab</a></h4>
-<p>Independent research laboratory advancing pre-fact provenance, formal safety, and reversible execution.</p>
-</td>
-<td width="50%" valign="top">
-<h4>📐 <a href="https://github.com/TraceFold/tracefold/tree/main/lean">Lean 4 Formal Proofs</a></h4>
-<p>117 machine-checked mathematical theorems certifying algebraic reversibility with 0 <code>sorry</code> assertions.</p>
-</td>
-</tr>
-</table>
 
 ---
 
@@ -56,7 +33,7 @@
 | **Go Infrastructure** | [`gin-gonic/gin`](https://github.com/gin-gonic/gin) | `MERGED` | High-throughput routing & request context |
 
 <details>
-<summary><b>▶ Full 154-PR Verification Ledger & Extraction Query</b></summary>
+<summary><b>▶ Full 154-PR Verification Ledger & Methodology</b></summary>
 <br>
 
 All 154 merged contributions are publicly verifiable on GitHub:
