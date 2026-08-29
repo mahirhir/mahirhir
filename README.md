@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1200&color=00DFD8&background=0B0A0900&center=true&vCenter=true&width=700&lines=Autonomous+AI+Agent+Reversibility+Substrate;Holding+Checked+Inverses+Before+Actions+Land;Tamper-Evident+Receipts+Verifiable+Offline;154+PRs+Merged+into+144+Open-Source+Repos" alt="TraceFold Hero Tagline" />
+<a href="https://github.com/TraceFold/tracefold"><img src="https://github.com/TraceFold/tracefold/releases/download/brand-assets/banner.png" alt="TraceFold Banner" width="900"></a>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=1200&color=00DFD8&background=0B0A0900&center=true&vCenter=true&width=700&lines=Responsibility+for+effects.;Undo+is+a+feature;+reversibility+is+a+property.;Holding+checked+inverses+before+actions+land.;154+PRs+Merged+into+144+Open-Source+Repos" alt="TraceFold Hero Tagline" />
 
 <p>
 <a href="https://github.com/TraceFold/tracefold"><img src="https://img.shields.io/badge/TraceFold-Core%20Engine-7928ca?style=for-the-badge&logo=rust&logoColor=ffffff" alt="TraceFold Core"></a>
@@ -13,18 +15,18 @@
 
 ---
 
-### Primary Arsenal & Systems
+### Core Systems & Primary Work
 
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
 <h4>⚡ <a href="https://github.com/TraceFold/tracefold">TraceFold Core Engine</a></h4>
-<p>Deterministic runtime substrate in Rust. Binds a verified inverse before any destructive agent action lands.</p>
+<p>Holds a change together with a checked inverse <b>before</b> it lands, turning the verdict into a receipt verifiable offline.</p>
 <code>cargo build --workspace</code>
 </td>
 <td width="50%" valign="top">
 <h4>📦 <a href="https://www.npmjs.com/package/@mahirhir/tracefold">@mahirhir/tracefold (npm SDK)</a></h4>
-<p>Standalone TypeScript / WebAssembly offline receipt verifier. Zero network calls, zero server dependencies.</p>
+<p>The real TypeScript / WASM SDK (Apache-2.0). Verifies receipts offline without network calls or producing them.</p>
 <code>npm i @mahirhir/tracefold</code>
 </td>
 </tr>
@@ -44,26 +46,23 @@
 
 ### Open Source Track Record
 
-<div align="center">
-<h3><b>154 Pull Requests Merged across 144 Repositories</b></h3>
-<p>High-velocity upstream contributions across foundational infrastructure, build systems, and UI frameworks:</p>
+> **154 pull requests merged into 144 repositories** &middot; *152 of them merged inside a single month — a high-velocity focus sprint, not a four-year cadence.*
 
-<p>
-<a href="https://github.com/search?q=author%3Amahirhir+type%3Apr+is%3Amerged+repo%3Aant-design%2Fant-design"><img src="https://img.shields.io/badge/ant--design-merged-1890ff?style=flat-square&logo=antdesign&logoColor=ffffff" alt="ant-design"></a>
-<a href="https://github.com/search?q=author%3Amahirhir+type%3Apr+is%3Amerged+repo%3Amui%2Fmaterial-ui"><img src="https://img.shields.io/badge/material--ui-merged-007fff?style=flat-square&logo=mui&logoColor=ffffff" alt="material-ui"></a>
-<a href="https://github.com/search?q=author%3Amahirhir+type%3Apr+is%3Amerged+repo%3Avitejs%2Fvite"><img src="https://img.shields.io/badge/vite-merged-646cff?style=flat-square&logo=vite&logoColor=ffffff" alt="vite"></a>
-<a href="https://github.com/search?q=author%3Amahirhir+type%3Apr+is%3Amerged+repo%3Agin-gonic%2Fgin"><img src="https://img.shields.io/badge/gin-merged-00add8?style=flat-square&logo=go&logoColor=ffffff" alt="gin"></a>
-</p>
-</div>
+| Ecosystem | Flagship Upstream Repository | Upstream Status | Scope & Contribution |
+| :--- | :--- | :---: | :--- |
+| **Enterprise UI** | [`ant-design/ant-design`](https://github.com/ant-design/ant-design) | `MERGED` | Component architecture & strict type contracts |
+| **React Ecosystem** | [`mui/material-ui`](https://github.com/mui/material-ui) | `MERGED` | Core runtime reliability & theme stability |
+| **Build Tooling** | [`vitejs/vite`](https://github.com/vitejs/vite) | `MERGED` | Dev server internals & module resolution |
+| **Go Infrastructure** | [`gin-gonic/gin`](https://github.com/gin-gonic/gin) | `MERGED` | High-throughput routing & request context |
 
 <details>
-<summary><b>▶ Full 154-PR Verification Ledger & Methodology</b></summary>
+<summary><b>▶ Full 154-PR Verification Ledger & Extraction Query</b></summary>
 <br>
 
-All 154 contributions are publicly verifiable via GitHub's search index:
-- **Live Search Query**: [`author:mahirhir type:pr is:merged`](https://github.com/search?q=author%3Amahirhir+type%3Apr+is%3Amerged)
-- **Detailed Repository Ledger**: Read the full list of 144 repositories, PR numbers, and classification in [docs/merged-work.md](docs/merged-work.md).
-- **Execution Profile**: 152 PRs merged in a single high-velocity focus sprint, demonstrating upstream delivery throughput.
+All 154 merged contributions are publicly verifiable on GitHub:
+- **Search Query**: [`author:mahirhir type:pr is:merged`](https://github.com/search?q=author%3Amahirhir+type%3Apr+is%3Amerged)
+- **Detailed Repository Ledger**: Read the full list of 144 repositories, PR numbers, and methodology in [docs/merged-work.md](docs/merged-work.md).
+- **Working Copies Notice**: Most repositories on this account are working copies of upstream projects kept for reading and preparing pull requests. Mine is [TraceFold/tracefold](https://github.com/TraceFold/tracefold).
 </details>
 
 ---
@@ -77,5 +76,5 @@ All 154 contributions are publicly verifiable via GitHub's search index:
 <br>
 
 <div align="center">
-<sub>No visitor counters &middot; No inflated trophies &middot; Verified code and mathematical proofs only</sub>
+<sub>No visitor counters &middot; No star totals &middot; No trophies &middot; No logo wall &middot; Facts and verified code only</sub>
 </div>
