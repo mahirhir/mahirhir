@@ -11,8 +11,9 @@ Turning execution verdicts into tamper-evident receipts verifiable offline by th
 
 <p>
 <a href="https://github.com/TraceFold/tracefold"><img src="https://img.shields.io/badge/TraceFold-Core%20Engine-7928ca?style=for-the-badge&logo=rust&logoColor=ffffff" alt="TraceFold Core"></a>
+<a href="https://doi.org/10.5281/zenodo.22168558"><img src="https://img.shields.io/badge/Paper-DOI%3A10.5281%2Fzenodo.22168558-00dfd8?style=for-the-badge&logo=doi&logoColor=090a0f" alt="Zenodo Paper"></a>
 <a href="https://www.npmjs.com/package/@mahirhir/tracefold"><img src="https://img.shields.io/badge/npm-SDK%20v0.1-0070f3?style=for-the-badge&logo=npm&logoColor=ffffff" alt="npm SDK"></a>
-<a href="mailto:mahirohirakawa@glovrex.com"><img src="https://img.shields.io/badge/Email-mahirohirakawa%40glovrex.com-00dfd8?style=for-the-badge&logo=minutemailer&logoColor=090a0f" alt="Email"></a>
+<a href="mailto:mahirohirakawa@glovrex.com"><img src="https://img.shields.io/badge/Email-mahirohirakawa%40glovrex.com-26231f?style=for-the-badge&logo=minutemailer&logoColor=ffffff" alt="Email"></a>
 <a href="https://discord.gg/rtvXqYEQzr"><img src="https://img.shields.io/badge/Community-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=ffffff" alt="Discord"></a>
 </p>
 
@@ -52,5 +53,5 @@ All 154 merged contributions are publicly verifiable on GitHub:
 <br>
 
 <div align="center">
-<sub>Direct: <a href="mailto:mahirohirakawa@glovrex.com">mahirohirakawa@glovrex.com</a> &middot; No visitor counters &middot; No star totals &middot; No trophies &middot; Facts only</sub>
+<sub><a href="https://doi.org/10.5281/zenodo.22168558">Paper (DOI: 10.5281/zenodo.22168558)</a> &middot; <a href="mailto:mahirohirakawa@glovrex.com">mahirohirakawa@glovrex.com</a> &middot; <a href="https://glovrex.com">glovrex.com</a></sub>
 </div>
