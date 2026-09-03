@@ -5,16 +5,16 @@ each figure. It lives here so the profile can be six chips instead of a table.
 
 ## The numbers
 
-Re-measured 26 August 2026 from the GitHub search API without credentials, which is also
-where you can count them. The figures the profile carried before this page existed were
-measured on 20 August 2026 and are kept in the last column so the drift is visible.
+Re-measured 4 September 2026 from the GitHub search API without credentials, which is also
+where you can count them. Earlier measurements are kept in the right-hand columns so the
+drift stays visible.
 
-| | measured 26 Aug 2026 | how to re-derive it | was, 20 Aug |
-|:--|--:|:--|--:|
-| Pull requests merged | **154** | [search: author, merged](https://github.com/search?q=author%3Amahirhir+type%3Apr+is%3Amerged&type=pullrequests) | 153 |
-| Into repositories I do not own | **154 of 154** | add `user:mahirhir` to that same search and the count is 0 | 153 of 153 |
-| Distinct repositories | **144** | tally `repository_url` over the 154 merged results | 143 |
-| Opened in total | **353** | drop `is:merged` from the search. The other 199 are visible too | 351 |
+| | measured 4 Sep 2026 | how to re-derive it | 26 Aug | 20 Aug |
+|:--|--:|:--|--:|--:|
+| Pull requests merged | **193** | [search: author, merged](https://github.com/search?q=author%3Amahirhir+type%3Apr+is%3Amerged&type=pullrequests) | 154 | 153 |
+| Into repositories I do not own | **193 of 193** | add `user:mahirhir` to that same search and the count is 0; `org:TraceFold` is 0 too | 154 of 154 | 153 of 153 |
+| Distinct repositories | **163** | tally `repository_url` over the 193 merged results | 144 | 143 |
+| Opened in total | **486** | drop `is:merged` from the search. The other 293 are visible too | 353 | 351 |
 
 152 of them merged inside a single month, counted 20 August 2026 when the total was 153.
 It is a burst, not a four-year cadence. That month-level breakdown has not been re-run
@@ -35,11 +35,13 @@ Star counts read from the repository API on 26 August 2026.
 | [scrapy](https://github.com/scrapy/scrapy) | 1 | 64,041 |
 | [pdf.js](https://github.com/mozilla/pdf.js) | 1 | 53,780 |
 
-The full distribution, tallied over all 154 merged results on 26 August 2026:
-one repository at three merged pull requests (`janhq/jan`), eight at two, and 135 at one.
-**There is no repository I am a deep contributor to.** The shape of this record is breadth,
-not depth, and the eight projects named above are chosen by how well known they are, not by
-how much of my work is in them &mdash; each of the eight is a single merged pull request.
+The full distribution, tallied over all 193 merged results on 4 September 2026: three
+repositories at six merged pull requests (`vinhnguyenthanhdn/claude-router`,
+`conorbronsdon/agent-context-os`, `PerryLink/dsh-checkpoint-rewind`), one at four
+(`kavix/OpenShomer`), one at three (`janhq/jan`), ten at two, and 148 at one. The shape of
+this record is still breadth rather than depth, and the eight projects named above are chosen
+by how well known they are, not by how much of my work is in them: each of the eight is a
+single merged pull request, rechecked on 4 September 2026.
 
 ## The picture
 
