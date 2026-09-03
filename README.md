@@ -23,7 +23,7 @@ Turning execution verdicts into tamper-evident receipts verifiable offline by th
 
 ### Open Source Track Record
 
-> **154 pull requests merged into 144 repositories** &middot; *152 of them merged inside a single month — a high-velocity focus sprint, not a four-year cadence.*
+> **193 pull requests merged into 163 repositories**, none of them mine, measured 4 September 2026 &middot; *152 of them merged inside a single month, counted 20 August 2026 when the total was 153. A burst, not a four-year cadence.*
 
 | Ecosystem | Flagship Upstream Repository | Upstream Status | Scope & Contribution |
 | :--- | :--- | :---: | :--- |
@@ -33,12 +33,12 @@ Turning execution verdicts into tamper-evident receipts verifiable offline by th
 | **Go Infrastructure** | [`gin-gonic/gin`](https://github.com/gin-gonic/gin) | `MERGED` | High-throughput routing & request context |
 
 <details>
-<summary><b>▶ Full 154-PR Verification Ledger & Methodology</b></summary>
+<summary><b>▶ Full merged-work ledger and methodology</b></summary>
 <br>
 
-All 154 merged contributions are publicly verifiable on GitHub:
+All 193 merged contributions are publicly verifiable on GitHub:
 - **Search Query**: [`author:mahirhir type:pr is:merged`](https://github.com/search?q=author%3Amahirhir+type%3Apr+is%3Amerged)
-- **Detailed Repository Ledger**: Read the full list of 144 repositories, PR numbers, and methodology in [docs/merged-work.md](docs/merged-work.md).
+- **Detailed Repository Ledger**: Read the full list of 163 repositories, PR numbers, and methodology in [docs/merged-work.md](docs/merged-work.md).
 - **Working Copies Notice**: Most repositories on this account are working copies of upstream projects kept for reading and preparing pull requests. Mine is [TraceFold/tracefold](https://github.com/TraceFold/tracefold).
 </details>
 
