@@ -23,7 +23,9 @@ Turning execution verdicts into tamper-evident receipts verifiable offline by th
 
 ### Open Source Track Record
 
+<!-- pr-count:start -->
 > **193 pull requests merged into 163 repositories**, none of them mine, measured 4 September 2026 &middot; *152 of them merged inside a single month, counted 20 August 2026 when the total was 153. A burst, not a four-year cadence.*
+<!-- pr-count:end -->
 
 | Ecosystem | Flagship Upstream Repository | Upstream Status | Scope & Contribution |
 | :--- | :--- | :---: | :--- |
