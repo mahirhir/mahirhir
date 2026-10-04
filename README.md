@@ -57,3 +57,7 @@ All 193 merged contributions are publicly verifiable on GitHub:
 <div align="center">
 <sub><a href="https://doi.org/10.5281/zenodo.22168558">Paper (DOI: 10.5281/zenodo.22168558)</a> &middot; <a href="mailto:mahirohirakawa@glovrex.com">mahirohirakawa@glovrex.com</a> &middot; <a href="https://glovrex.com">glovrex.com</a></sub>
 </div>
+
+<div align="center">
+<sub>Free tool: <a href="https://geo-audit-mini.vercel.app">check whether your server answers AI crawlers (GPTBot, ClaudeBot)</a></sub>
+</div>
