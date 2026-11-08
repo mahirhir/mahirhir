@@ -24,7 +24,7 @@ Turning execution verdicts into tamper-evident receipts verifiable offline by th
 ### Open Source Track Record
 
 <!-- pr-count:start -->
-> **217 pull requests merged into 189 repositories**, none of them mine, measured 2026-11-07 by [`sync-pr-count`](.github/workflows/sync-pr-count.yml) &middot; *152 of them merged inside a single month, counted 20 August 2026 when the total was 153. A burst, not a four-year cadence.*
+> **217 pull requests merged into 189 repositories**, none of them mine, measured 2026-11-08 by [`sync-pr-count`](.github/workflows/sync-pr-count.yml) &middot; *152 of them merged inside a single month, counted 20 August 2026 when the total was 153. A burst, not a four-year cadence.*
 <!-- pr-count:end -->
 
 | Ecosystem | Flagship Upstream Repository | Upstream Status | Scope & Contribution |
